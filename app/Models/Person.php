@@ -9,23 +9,7 @@ class Person extends Model
 {
     use HasFactory;
 
-    // protected $fillable = [
-    //     'name',
-    //     'surname',
-    //     'sa_id_number',
-    //     'mobile_number',
-    //     'email',
-    //     'birth_date',
-    //     'language',
-    //     'interests',
-    // ];
 
-    // protected $casts = [
-    //     'interests' => 'array',
-    //     'birth_date' => 'date',
-    // ];
-
-    use HasFactory;
 
     protected $fillable = [
         'name',
